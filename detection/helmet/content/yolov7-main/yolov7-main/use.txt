@@ -1,0 +1,10 @@
+
+python detect.py --weights best.pt --conf 0.5 --img-size 320 --source 0 --nosave
+
+
+rtsp://admin:Admin@1234@192.168.1.64/doc/page/preview.asp
+
+
+python detect.py --weights best.pt --conf 0.5 --img-size 320 --source  "rtsp://admin:Admin@1234@192.168.1.64/doc/page/preview.asp" --nosave
+
+python detect.py --weights yolov72.pt --conf 0.5 --img-size 320 --source  "rtsp://admin:Admin@1234@192.168.1.64/doc/page/preview.asp" --nosave
